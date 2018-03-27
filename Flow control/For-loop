@@ -1,0 +1,24 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Mar 27 17:07:52 2018
+
+@author: Adedamola ADEDAPO
+"""
+
+""" Note: Enumerate is a built-in function enabling you to iterate and count at the
+same time (because the latter isn’t possible with for by itself).
+"""
+
+#--------------For-loop starts.
+data = ('a', 'ab', 'ac', 'ad')
+
+for i in data:
+    print(i)
+#-------------For-loop ends.
+
+print()
+
+#Using enumerate with for-loop starts.
+for i, value in enumerate(data):
+    print (i, value)
+ #Using enumerate with for-loop ends.   
