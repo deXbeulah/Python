@@ -1,0 +1,24 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Mar 27 16:11:33 2018
+
+@author: Adedamola ADEDAPO
+"""
+
+data = input("Enter 'y' or 'n': ")
+
+if data[0] == 'y':
+    print ("You entered 'y'.")
+elif data[0] == 'n':
+    print ("You entered 'n'.")
+else:
+    print ("Invalid entry.")
+    print ()
+    print ("Wanna practice before retaking, 'y' or 'n'?")
+    try_data = input('')
+    if try_data[0] == 'y':
+        print ("You're ready for retake.")
+    elif try_data == 'n':
+        print ("You're ready for retake.")
+    else:
+        print ("You are not ready for retake.")
