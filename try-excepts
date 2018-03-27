@@ -1,0 +1,36 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Mar 27 17:38:07 2018
+
+@author: Adedamola ADEDAPO
+"""
+
+"""
+Errors detected during execution are called exceptions and are not unconditionally fatal.
+"""
+
+"""
+Types of Exception
+-------------------
+
+>>> 10 * (1/0)          -ZeroDivisionError
+>>> 4 + spam*3          -NameError
+>>> '2' + 2             -TypeError
+>>> int(input(""))= q   -ValueError
+"""
+
+while True:
+    try:
+        data = int(input("Enter a number: "))
+        break 
+    except ValueError:
+        print ("Oops! That was an invalid number. Try again.")
+        
+while True:
+    try:
+        data = int(input("Enter a non-zero number: "))
+        1/data
+        break
+    except ZeroDivisionError:
+        print ("Oops! That was a zero number.")
+        
