@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Mar 27 16:46:51 2018
+
+@author: Adedamola ADEDAPO
+"""
+
+data = int(input("Enter a number less than 10: "))
+
+while data < 10:
+    print (data)
+    
+    data += 1
