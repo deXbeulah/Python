@@ -17,6 +17,7 @@ Types of Exception
 >>> 4 + spam*3          -NameError
 >>> '2' + 2             -TypeError
 >>> int(input(""))= q   -ValueError
+Other: ArithmeticError, Exeception ...
 """
 
 while True:
@@ -25,6 +26,9 @@ while True:
         break 
     except ValueError:
         print ("Oops! That was an invalid number. Try again.")
+    except Exception:
+        print ("Error! Invalid data.")
+        
         
 while True:
     try:
@@ -33,4 +37,6 @@ while True:
         break
     except ZeroDivisionError:
         print ("Oops! That was a zero number.")
+    except Exception:
+        print ("Error! Invalid data.")
         
